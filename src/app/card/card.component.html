@@ -1,0 +1,17 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="cardInfo.image" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{cardInfo.name}}</h5>
+      <p class="card-text">{{cardInfo.location.name}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{cardInfo.gender}}</li>
+      <li class="list-group-item">{{cardInfo.species}}</li>
+      <li class="list-group-item">{{cardInfo.status}}</li>
+    </ul>
+    <div class="card-body">
+      <a [routerLink]="['/info',cardInfo.name,cardInfo.status]" class="btn btn-dark mt-2 form-control">Show All Alters</a>
+    </div>
+  </div>
+
+  

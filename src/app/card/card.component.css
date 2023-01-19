@@ -1,0 +1,42 @@
+.card{
+    margin: 15px;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 3px 5px 3px 2px black;
+}
+
+.card-body{
+    background: #1f242c;
+    color: white;
+}
+
+.card-title:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.card-text:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.list-group-item{
+    color: white;
+    background: #1f242c;
+}
+
+.list-group-item:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.btn{
+    background: orangered;
+}
+
+.btn:hover{
+    background: orange;
+    box-shadow: 7px 5px 7px 0px black;
+    transform: scale(1.05);
+    transition: 0.3s;
+}

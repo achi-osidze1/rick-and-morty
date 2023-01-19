@@ -1,0 +1,8 @@
+img{
+    height: 500px;
+    object-fit: contain;
+}
+
+.carousel-item{
+    background-color: rgb(23, 25, 30);
+}

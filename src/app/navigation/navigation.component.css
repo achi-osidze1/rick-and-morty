@@ -1,0 +1,16 @@
+.navbar{
+    font-size: large;
+    background-color: rgb(13, 14, 18);
+}
+
+img{
+    height: 80px;
+}
+
+.nav-link{
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    color: red;
+}

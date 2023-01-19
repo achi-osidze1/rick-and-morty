@@ -1,0 +1,19 @@
+<app-carousel [infoarr]="randomarr"></app-carousel>
+
+<div class="text">
+    <h3 id="h3">All Rick And Morty Characters</h3>
+</div>
+<div class="container col-md-9 m-auto mt-2 mb-2">
+    <input type="text" class="form-control mt-2" placeholder="Enter Character Name" [(ngModel)]="searchWord" (keyup)="search()">
+    <select class="form-select mt-2" [(ngModel)]="gender">
+      <option value="All" >All</option>
+      <option value="Male" >Male</option>
+      <option value="Female" >Female</option>
+    </select>
+</div>
+
+<div class="main">
+  <div *ngFor="let i of arr">
+    <app-card [cardInfo]="i" *ngIf="i.gender==gender||gender=='All'"></app-card>
+  </div>
+</div>

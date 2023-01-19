@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text h3{
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+.card{
+    font-family: Fira Code,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+}
+
+.card-header{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card-body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+span{
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .card{
+        white-space: nowrap;
+        overflow-x: scroll;
+        width: 90%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .card{
+        white-space: nowrap;
+        overflow-x: scroll;
+        width: 90%;
+    }
+}
